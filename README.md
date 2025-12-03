@@ -1,17 +1,41 @@
-# super_trunfo de países em Linguaguem C
+# 🃏 Super Trunfo de países em C
 
-# Sobre o projeto
+## 📌 Sobre o projeto
+Este repositório traz uma implementação do jogo de cartas Super Trunfo, focado em dados e estatísticas de países. O projeto foi desenvolvido em C para praticar:
+- **Entrada e saída de dados**
+- **Lógica condicional**
+- **Uso de structs**
+- **Menus com switch**
+- **Operador ternário**
+- **Comparações entre atributos**
 
-Este projeto é uma implementação do clássico jogo de cartas, focado em dados e estatísticas de diferentes países. Foi desenvolvido como um exercício prático da linguaguem C, abordando conceitos como : Entrada e saída de dados, Lógica condicional..
+O objetivo é simular uma rodada onde o jogador compara atributos como **população**, **PIB**, **área** e **pontos turísticos** entre duas cartas.
 
-O objetivo é simular uma partida simples onde o jogador compara atributos de países como: população, PIB, área; 
 ---
-Tecnologias utilizadas
 
-**Linguaguem; C
-**Compilador : **GCC
-**Ambiente de desenvolvimento: VS code;
+## ⚙️ Tecnologias utilizadas
+- **Linguagem:** C
+- **Compilador:** GCC
+- **Ambiente de desenvolvimento:** VS Code
+
 ---
-Funcionalidades principais:
-**Definição de cartas: Utilização de `structs` para armazenar dados dos países (NOME, POPULAÇÃO, PIB, ETC).
 
+## 🧩 Arquivos do projeto
+
+- **Versão inicial: `suoer_trunfo.c`**
+  - Cadastro e exibição dos atributos das cartas.
+  - Útil para entender structs e impressão de dados.
+
+- **Versão final do desafio: `super_trunfo_final.c`**
+  - **Escolha de dois atributos diferentes** para comparar.
+  - **Menus dinâmicos com switch** para evitar repetição de atributos.
+  - **Regras de comparação:** maior valor vence (exceto atributos onde menor seria desejado, se incluídos).
+  - **Soma dos dois atributos** escolhidos para decidir o vencedor.
+  - **Tratamento de empate** e **exibição clara** dos resultados.
+
+---
+
+## 🚀 Como compilar e executar
+```bash
+gcc super_trunfo_final.c -o super_trunfo_final
+./super_trunfo_final
